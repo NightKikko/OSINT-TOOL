@@ -1,0 +1,4 @@
+colorama
+aiohttp
+asyncio
+sockets
