@@ -9,7 +9,7 @@ __HJCS__ and [NightKikko](https://github.com/NightKikko)
 
 1. Clone the repository:
 ```
-[git clone https://github.com/DevMaster-sudo/Osint-and-Security](https://github.com/DevMaster-sudo/OSINT-TOOL.git)
+https://github.com/DevMaster-sudo/OSINT-TOOL.git
 ```
 ## Install dependencies
 ```
