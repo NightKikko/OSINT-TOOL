@@ -24,7 +24,7 @@ def main():
         elif choice == '3':
             host = input("$ Enter the host to scan: ")
             start_port = int(input("$ Enter the starting port: "))
-            end_port = int(input("$ ssEnter the ending port: "))
+            end_port = int(input("$ Enter the ending port: "))
             asyncio.run(scan_ports(host, start_port, end_port))
         elif choice == '4':
             print("Goodbye!")
