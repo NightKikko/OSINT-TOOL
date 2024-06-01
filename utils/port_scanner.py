@@ -19,15 +19,15 @@ def scan_port(host, port):
         sock.close()
 
 def scan_ports(host, start_port, end_port):
-    print(f"{Fore.CYAN}Scan de l'adresse ip du port {start_port} à {end_port}")
+    print(f"{Fore.CYAN}Scan IP address from port {start_port} to {end_port}")
     for port in range(start_port, end_port + 1):
         if scan_port(host, port):
-            print(f"{Fore.GREEN}Le port {port} est ouvert.")
+            print(f"{Fore.GREEN}Port {port} is open.")
         else:
-            print(f"{Fore.RED}Le port {port} est fermé.")
+            print(f"{Fore.RED}port {port} is close.")
 
 if __name__ == "__main__":
-    host = input("Entrez l'ip à chercher: ")
-    start_port = int(input("Entrez le port de départ: "))
-    end_port = int(input("Entrez le port d'arrivée: "))
+    host = input("Enter IP Adress: ")
+    start_port = int(input("Enter the departure port: "))
+    end_port = int(input("Enter the arrival port: "))
     scan_ports(host, start_port, end_port)
