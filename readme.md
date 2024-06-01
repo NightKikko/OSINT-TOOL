@@ -17,7 +17,7 @@ pip install -r requirements.txt
 ```
 ## Select the downloaded repository
 ```
-cd Osint-and-Security
+cd OSINT-TOOL
 ```
 # Run the code
 ```
