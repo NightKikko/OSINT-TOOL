@@ -3,13 +3,13 @@ This rool is not 100% accurate so it can fail sometimes. Also this tool is made 
 
 #  Credits
 
-__HJCS__ and [NightKikko](https://github.com/NightKikko)
+[DevMaster](https://github.com/DevMaster-sudo) and [NightKikko](https://github.com/NightKikko)
 
 # Install Tool
 
 1. Clone the repository:
 ```
-https://github.com/DevMaster-sudo/OSINT-TOOL.git
+git clone https://github.com/DevMaster-sudo/OSINT-TOOL.git
 ```
 ## Install dependencies
 ```
